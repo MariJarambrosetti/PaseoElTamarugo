@@ -1,0 +1,87 @@
+
+---Upload files---
+Content file was not uploaded. Error: 
+
+---Upload files---
+Customizer file was not uploaded. Error: El archivo está vacío. Por favor, sube algo con más sustancia. Este error puede que lo provoque que tu fichero php.ini tenga inhabilitadas las subidas o porque post_max_size esté definido más pequeño que el  upload_max_filesize en php.ini.
+
+---Upload files---
+Redux file was not uploaded. Error: El archivo está vacío. Por favor, sube algo con más sustancia. Este error puede que lo provoque que tu fichero php.ini tenga inhabilitadas las subidas o porque post_max_size esté definido más pequeño que el  upload_max_filesize en php.ini.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 30
+Files info:
+Site URL = http://localhost:8888
+Data file = not defined!
+Widget file = C:\Users\maria\Desktop\Paseo_ElTamarugo/wp-content/uploads/2018/11/mall-widgets.wie
+Customizer file = not defined!
+Redux files:
+not defined!
+
+---Importing widgets---
+Header : 
+
+Texto - No Title - Imported
+
+Social : 
+
+Texto - No Title - Imported
+
+Showcase : 
+
+Smart Slider - No Title - Imported
+
+Stores : 
+
+JT Brands -  Stores - Imported
+
+Offers : 
+
+Texto - Offers - Imported
+
+Services : 
+
+Texto - Services - Imported
+
+Events : 
+
+jt_event_calendar -  Events - Site does not support widget
+
+News : 
+
+JT Posts Showcase Widget - News - Imported
+Texto - No Title - Imported
+
+Info : 
+
+Texto - Info - Imported
+
+Contact : 
+
+Texto - Contact - Imported
+
+Sidebar : 
+
+JT Posts Showcase Widget - Latest News - Imported
+Buscar - No Title - Widget already exists
+Calendario - No Title - Imported
+
+Footer 1 : 
+
+Texto - No Title - Imported
+
+Footer 2 : 
+
+Email Subscribers - No Title - Imported
+
+mega-menu : Sidebar does not exist in theme (moving widget to Inactive)
+
+Buscar - No Title - Imported to Inactive
+Entradas recientes - No Title - Imported to Inactive
+Comentarios recientes - No Title - Imported to Inactive
+Archivos - No Title - Imported to Inactive
+Categorías - No Title - Imported to Inactive
+Meta - No Title - Imported to Inactive
+
+

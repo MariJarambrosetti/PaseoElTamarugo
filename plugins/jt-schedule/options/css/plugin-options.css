@@ -1,0 +1,375 @@
+.jtplugin-options {
+    display: block;
+}
+.jtplugin-options .uk-width-3-10 {
+	padding: 0 20px;
+}
+
+.jtplugin-options-tabs {
+    background: #33353c;
+    width: 100%;
+    display: block;
+}
+
+#jtplugin-options {
+    display: block;
+    width: 100%;
+    background: #fff;
+    padding: 10px 30px;
+    box-sizing: border-box;
+}
+
+#jtplugin-options a {
+	color: #ea4354;
+	text-decoration: none;
+	transition: all .4s ease;
+}
+
+#jtplugin-options a:hover {
+	color: #555;
+	transition: all .4s ease;
+}
+
+#jtplugin-options h2 {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 0 20px;
+    color: #ea4354;
+    font-weight: normal;
+}
+
+#jtplugin-options input {
+    border: 1px solid #f0f0f0;
+    box-shadow: none;
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+
+#jtplugin-options textarea {
+    border: 1px solid #f0f0f0;
+    box-shadow: none;
+    outline: 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#jtplugin-options ul {
+    list-style: circle;
+    margin: 15px 20px;
+}
+
+.jtplugin-options-tabs li {
+    display: inline-block;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    background: #33353c;
+    color: #fff;
+    width: auto;
+    border: 0;
+}
+
+.jtplugin-options-tabs .uk-active {
+    background: #ea4354;
+}
+
+#jtplugin-options .site-logo {
+	width: 250px;
+}
+
+#jtplugin-options .site-favicon {
+	width: 36px;
+}
+
+
+/* Switcher */
+
+#jtplugin-options .switch {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 28px;
+}
+
+#jtplugin-options .switch input {display:none;}
+
+#jtplugin-options .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ddd;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#jtplugin-options .slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#jtplugin-options input:checked + .slider {
+  background-color: #4ad764;
+}
+
+#jtplugin-options input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+#jtplugin-options input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+#jtplugin-options .slider.round {
+  border-radius: 34px;
+}
+
+#jtplugin-options .slider.round:before {
+  border-radius: 50%;
+}
+
+
+/* Radio Image */
+.radio-img > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.radio-img > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border: 1px solid #eee;
+  box-shadow: none;
+  padding: 5px;
+  transition: all .2s ease;
+}
+.radio-img > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border: 1px solid #4ad764;
+  transition: all .2s ease;
+}
+
+
+/* Select */
+#jtplugin-options select {
+    background: #fbfbfb;
+    border: 1px solid #f0f0f0;
+    box-shadow: none;
+    border-radius: 50px;
+    padding: 0 10px;
+}
+
+#jtplugin-options input[type="submit"] {
+    height: auto;
+    background: #ea4354;
+    text-shadow: none;
+    margin-top: 20px;
+    box-shadow: none;
+}
+
+/* Section Title */
+#jtplugin-options .tab-section-title {
+    margin: 20px 0 -25px;
+    font-weight: normal;
+    font-style: italic;
+    padding: 0 0 10px;
+    color: #828282;
+}
+
+#jtplugin-options .field-info {
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    margin: 5px 0 0;
+}
+
+.more-jt-items {
+    text-align: center;
+    margin: 80px 0 50px;
+}
+
+.more-jt-items a {
+    margin: 0 5px;
+}
+
+.more-jt-items h3 {
+    margin: 0 0 30px;
+    font-weight: normal;
+    position: relative;
+}
+
+.more-jt-items h3:after {
+    position: absolute;
+    width: 40px;
+    height: 2px;
+    background: #ea4354;
+    content: '';
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#jtplugin-options .uk-accordion-title {
+    margin: 0 0 8px;
+    border: 1px solid #f0f0f0;
+    background: #fbfbfb;
+    font-size: 14px;
+    font-weight: normal;
+    color: #555;
+}
+
+#jtplugin-options .uk-accordion-title.uk-active {
+    color: #ea4354;
+}
+
+#jtplugin-options input[type="text"] {
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    background: #f9f9f9;
+    padding: 8px 12px;
+}
+
+
+.jt-plugin-info {
+    background: #fff;
+    padding: 20px;
+	margin-bottom: 20px;
+    border: 1px solid #f5f5f5;
+}
+
+.jt-plugin-info h2 {
+    margin: 0 0 20px;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 0 10px;
+}
+
+
+#jtplugin-options .active-status {
+    background: #3dcd41;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 2px;
+}
+#jtplugin-options .invalid-code {
+    background: #504e4e;
+    display: inline-block;
+    padding: 5px 10px;
+    font-size: 12px;
+    color: #fff;
+    border-radius: 2px;
+}
+#jtplugin-options .supported-until {
+    display: inline-block;
+    padding: 0 0 0 20px;
+    font-style: italic;
+    font-size: 12px;
+}
+#jtplugin-options .supported-until .license-label {
+    font-weight: bold;
+    padding: 0 10px 0 0;
+}
+#jtplugin-options .license-info-box {
+    border-top: 1px solid #f0f0f0;
+}
+
+
+#destination_meta_box {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+}
+
+#destination_meta_box .inside {
+    padding: 0;
+}
+
+#destination_meta_box .hndle, #destination_meta_box .handlediv {
+    display: none;
+}
+
+#destination_meta_box #destination-tabs-nav {
+    background: #33353c;
+    padding: 0;
+}
+
+#destination_meta_box #destination-tabs-nav li:hover a {
+	border: 0 !important;
+}
+
+#destination_meta_box #destination-tabs-nav li a {
+    color: #fff;
+	padding: 10px 15px;
+	margin: 0;
+	font-size: 13px;
+}
+
+#destination_meta_box #destination-tabs-nav li.uk-active {
+    background: #ea4354;
+}
+
+#destination_meta_box #destination-tabs-nav li.uk-active a:after {
+    display: none;
+}
+
+#destination_meta_box #destination-tabs {
+    background: #fff;
+}
+
+#destination_meta_box #destination-tabs input[type="text"],
+#destination_meta_box #destination-tabs input[type="url"], 
+#destination_meta_box #destination-tabs textarea {
+    width: 100%;
+    background: #f9f9f9;
+    border: 0;
+    box-shadow: none;
+    padding: 8px 10px;
+}
+
+#destination_meta_box label {
+    display: block;
+    margin: 0 0 5px;
+    font-size: 13px;
+}
+
+#destination_meta_box #destination-tabs input[type="number"] {
+    background: #f9f9f9;
+    padding: 8px 10px;
+    height: auto;
+    border: 0;
+    box-shadow: none;
+    min-width: 200px;
+}
+
+#destination_meta_box .travel-upload-field {
+    width: 85% !important;
+    margin-right: 2%;
+}
+
+#destination_meta_box .travel-upload-btn {
+    width: 12%;
+    margin: 0;
+    background: #888888;
+    color: #fff !important;
+    border: 0;
+    box-shadow: none;
+    padding: 4px 10px;
+    height: auto;
+    border-radius: 2px;
+    transition: all .4s ease;
+}
+
+#destination_meta_box .travel-upload-btn:hover {
+    background: #ea4354;
+    transition: all .4s ease;
+}

@@ -1,0 +1,340 @@
+/* Advanced Search CSS */
+
+.search-events-content .title {
+    margin: 50px;
+    text-align: center;
+}
+
+.search-events-content .no-events-found {
+    text-align: center;
+    width: 100%;
+    background: #fff;
+    padding: 10px !important;
+    display: block;
+    margin: 0;
+}
+
+/* Style 1 */
+.events-advanced-search {
+    background: #ff748f;
+    padding: 20px;
+}
+
+.events-advanced-search input[name="s"] {
+    width: 100%;
+    border: 0;
+    border-radius: 50px;
+    padding: 6px 15px;
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+    outline: none;
+    margin: 0 0 10px;
+}
+
+.events-advanced-search input::placeholder {
+    color: #fff;
+}
+
+.events-advanced-search label {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.events-advanced-search input {
+    outline: none;
+    font-size: 13px;
+}
+
+.events-advanced-search input[type="date"] {
+    width: 100%;
+    border: 0;
+    border-radius: 50px;
+    padding: 4px 15px;
+}
+
+.events-advanced-search select {
+    width: 100%;
+	font-size: 13px;
+    padding: 4px 15px;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+}
+
+.events-advanced-search input[type="submit"] {
+    box-shadow: none;
+    font-size: 13px;
+    background: transparent;
+    text-shadow: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    padding: 8px 20px;
+    margin: 10px 0 0;
+    transition: all .4s ease;
+}
+
+.events-advanced-search input[type="submit"]:hover {
+    background: #fff;
+    color: #ff748f;
+    transition: all .4s ease;
+	box-shadow: none;
+	border: 1px solid #fff;
+}
+
+
+/* Style 2 */
+.events-advanced-search-2 {
+    background: #699ddc;
+    padding: 20px;
+}
+
+.events-advanced-search-2 input[name="s"] {
+    width: 100%;
+    border: 0;
+    border-radius: 50px;
+    padding: 6px 15px;
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+    outline: none;
+    margin: 0 0 10px;
+}
+
+.events-advanced-search-2 input::placeholder {
+    color: #fff;
+}
+
+.events-advanced-search-2 p {
+    overflow: auto;
+}
+
+.events-advanced-search-2 label {
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.events-advanced-search-2 input {
+    outline: none;
+    font-size: 13px;
+}
+
+.events-advanced-search-2 input[type="date"] {
+    float: left;
+    width: 70%;
+    border: 0;
+    border-radius: 0;
+    padding: 0 5px 5px;
+    background: transparent;
+    color: #fff;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.events-advanced-search-2 input[type="date"]::-webkit-datetime-edit-year-field {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.events-advanced-search-2 select {
+    float: left;
+    width: 70%;
+	font-size: 13px;
+    padding: 0 3px 5px;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    background: transparent;
+    color: #fff !important;
+}
+
+.events-advanced-search-2 option {
+    color: #555;
+}
+
+.events-advanced-search-2 input[type="submit"] {
+    box-shadow: none;
+    font-size: 13px;
+    background: transparent;
+    text-shadow: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    padding: 8px 20px;
+    margin: 10px 0 0;
+    transition: all .4s ease;
+}
+
+.events-advanced-search-2 input[type="submit"]:hover {
+    background: #fff;
+    color: #5e8dc6;
+    transition: all .4s ease;
+	box-shadow: none;
+	border: 1px solid #fff;
+}
+
+/* Style 1 */
+.events-advanced-search-3 {
+    background: #539286;
+    padding: 20px;
+}
+
+.events-advanced-search-3 input[name="s"] {
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    padding: 6px 15px;
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff !important;
+    outline: none;
+    margin: 0 0 10px;
+}
+
+.events-advanced-search-3 input::placeholder {
+    color: #fff;
+}
+
+.events-advanced-search-3 label {
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.events-advanced-search-3 input {
+    outline: none;
+    font-size: 13px;
+}
+
+.events-advanced-search-3 input[type="date"] {
+    width: 100%;
+    border: 0;
+    border-radius: 0;
+    padding: 4px 8px;
+    background: rgba(255, 255, 255, 0.98);
+}
+
+.events-advanced-search-3 select {
+    width: 100%;
+	font-size: 13px;
+    padding: 4px 8px;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    background: rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.events-advanced-search-3 option {
+	background: #fff;
+	color: #555;
+}
+
+.events-advanced-search-3 input[type="submit"] {
+    box-shadow: none;
+    font-size: 13px;
+    background: transparent;
+    text-shadow: none;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 0;
+    padding: 8px 20px;
+    margin: 10px 0 0;
+    transition: all .4s ease;
+}
+
+.events-advanced-search-3 input[type="submit"]:hover {
+    background: #fff;
+    color: #4b8378;
+    transition: all .4s ease;
+	box-shadow: none;
+	border: 1px solid #fff;
+}
+
+
+
+/* Simple Search CSS */
+
+/* Style 1 */
+.events-simple-search {
+    position: relative;
+}
+
+.events-simple-search input[type="text"] {
+    background: #ff748f;
+    color: #fff;
+    padding: 8px 15px 8px 85px;
+    font-size: 13px;
+    border: 0;
+    border-radius: 50px;
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.events-simple-search input::placeholder {
+    color: #fff;
+}
+
+.events-simple-search input[type="submit"] {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    font-size: 13px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    border: 0;
+    padding: 11px 15px 10px;
+    border-radius: 50px 0 0 50px;
+    text-shadow: none;
+    color: #fff;
+    transition: all .4s ease;
+}
+
+.events-simple-search input[type="submit"]:hover {
+    background: rgba(0, 0, 0, 0.18);
+    transition: all .4s ease;
+}
+
+
+/* Style 2 */
+.events-simple-search-2 {
+    position: relative;
+}
+
+.events-simple-search-2 input[type="text"] {
+    background: #539286;
+    color: #fff;
+    padding: 8px 15px 8px 85px;
+    font-size: 13px;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.events-simple-search-2 input::placeholder {
+    color: #fff;
+}
+
+.events-simple-search-2 input[type="submit"] {
+    position: absolute;
+    top: 0;
+    left: -1px;
+    font-size: 13px;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: none;
+    border: 0;
+    padding: 11px 15px 10px;
+    border-radius: 0;
+    text-shadow: none;
+    color: #fff;
+    transition: all .4s ease;
+}
+
+.events-simple-search-2 input[type="submit"]:hover {
+    background: rgba(0, 0, 0, 0.18);
+    transition: all .4s ease;
+}

@@ -1,0 +1,1603 @@
+/* JT Travel Booking Stylesheet */
+.agency-info {
+    margin: 35px 0 0;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #f5f5f5;
+}
+.agency-info h3 {
+    margin: 0 0 10px;
+    font-size: 16px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.agency-info h3 span {
+	padding: 0 0 10px;
+	border-bottom: 1px solid rgb(255, 137, 137);
+}
+
+.jt-travel-booking-3 .agency-info {
+    margin: 0 0 35px;
+}
+
+.single-destinations_list .container {
+	padding: 0 !important;
+}
+
+.jt-travel-booking img {
+	width: 100%;
+	max-height: 640px;
+	object-fit: fill;
+}
+
+.jt-travel-booking video::-webkit-media-controls,
+.jt-travel-booking-2 video::-webkit-media-controls,
+.jt-travel-booking-3 video::-webkit-media-controls,
+.jt-travel-booking-4 video::-webkit-media-controls {
+    overflow: hidden !important
+}
+
+.jt-travel-booking video::-webkit-media-controls-enclosure,
+.jt-travel-booking-2 video::-webkit-media-controls-enclosure,
+.jt-travel-booking-3 video::-webkit-media-controls-enclosure,
+.jt-travel-booking-4 video::-webkit-media-controls-enclosure {
+    width: calc(100% + 32px);
+    margin-left: auto;
+}
+
+.jt-travel-booking .destination-header-info {
+    margin: -81px 0 50px !important;
+    background: rgba(255, 255, 255, 0.95);
+    position: relative;
+}
+
+.jt-travel-booking .destination-header-info .entry-header {
+    padding: 10px 0 !important;
+}
+
+.jt-travel-booking .destination-header-info .destination-title {
+    font-size: 24px;
+    margin: 7px 0 8px;
+}
+
+.jt-travel-booking .destination-header-info i {
+    padding: 0 10px 0 0;
+}
+
+.jt-travel-booking .destination-header-info span {
+    padding-right: 20px;
+}
+
+.jt-travel-booking .destination-price-box {
+    background: rgba(255, 137, 137, 0.8);
+    padding: 19px 0 20px;
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.jt-travel-booking .destination-price-box span {
+	font-size: 18px;
+	padding-right: 10px;
+}
+
+.jt-travel-booking .destination-tabs-info {
+    margin: 0 !important;
+}
+
+.jt-travel-booking .destination-tabs-info .col-md-9 {
+    padding: 0 40px 0 10px !important;
+}
+
+.jt-travel-booking .destination-tabs-info .col-md-3 {
+    padding: 0 !important;
+}
+
+.jt-travel-booking .book-destination-box {
+    margin: 40px 0 !important;
+    background: #f9f9f9;
+    border: 1px solid #f0f0f0;
+}
+
+.jt-travel-booking .book-destination-box .col-md-9 {
+    padding: 25px;
+}
+
+.jt-travel-booking .book-destination-box p {
+    margin: 0;
+}
+
+.jt-travel-booking .book-destination-box .col-md-3 {
+    background: rgb(255, 137, 137);
+    padding: 0;
+    text-align: center;
+    font-size: 20px
+}
+
+.jt-travel-booking .book-destination-box a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    display: block;
+    padding: 21px;
+    transition: all .4s ease;
+}
+
+.jt-travel-booking .book-destination-box a:hover {
+    color: #fff;
+    transition: all .4s ease;
+}
+
+.jt-travel-booking .uk-tab {
+    border: 0 !important;
+    margin-bottom: 30px !important;
+}
+
+.jt-travel-booking .uk-tab a {
+    position: relative;
+    background: #f9f9f9 !important;
+    margin: 0 !important;
+    padding: 10px 15px !important;
+    color: #000 !important;
+}
+
+.jt-travel-booking .uk-tab .uk-active a {
+    background: #fd9e9e !important;
+    border: 0 !important;
+    color: #fff !important;
+}
+
+.jt-travel-booking .departure-dates {
+    background: #f9f9f9;
+    border-top: 0;
+    padding: 10px 15px;
+    margin: -50px 0 40px;
+}
+
+.jt-travel-booking .departure-dates ul {
+    margin: 15px 0 0;
+    padding: 15px 0 0;
+    list-style: none;
+    border-top: 1px solid #ffffff;
+    text-align: center;
+	overflow: auto;
+}
+
+.jt-travel-booking .departure-dates ul li {
+    width: 33%;
+    float: left;
+    padding: 0 0 15px;
+}
+
+.jt-travel-booking .destination-gallery {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 80px 0;
+}
+
+.jt-travel-booking .destination-gallery a {
+    width: 16.2%;
+    display: inline-block;
+}
+
+.jt-travel-booking .destination-gallery img {
+	width: 100%;
+	height: 95px;
+	object-fit: cover;
+}
+
+.jt-travel-booking .more-destinations-section h4 {
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.jt-travel-booking .more-destinations-section h4 span {
+    position: relative;
+}
+
+.jt-travel-booking .more-destinations-section h4 span:before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #fd9e9e;
+    /* border: 1px solid #f0f0f0; */
+    border-radius: 50%;
+    left: -25px;
+    top: 7px;
+}
+
+.jt-travel-booking .more-destinations-section h4 span:after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #fd9e9e;
+    /* border: 1px solid #f0f0f0; */
+    border-radius: 50%;
+    right: -25px;
+    top: 7px;
+}
+
+.jt-travel-booking #book-form-section {
+    background: #fcfcfc;
+    padding: 30px;
+    margin: -40px 0 40px;
+    border: 1px solid #f0f0f0;
+    border-top: 0;
+}
+
+.jt-travel-booking #book-form-section .uk-form-controls {
+	width: 100%;
+	background: #fff !important;
+	border: 1px solid #f0f0f0 !important;
+	border-radius: 0 !important;
+	outline: none !important;
+}
+
+.jt-travel-booking #book-form-section textarea {
+	padding: 7px;
+}
+
+.jt-travel-booking #book-form-section .book-trip-btn {
+	text-align: right;
+}
+
+.jt-travel-booking #book-form-section .book-trip-btn input {
+    background: #000;
+    box-shadow: none;
+    color: #fff;
+    border: 0;
+    border-radius: 0 !important;
+    padding: 14px 25px !important;
+    text-shadow: none !important;
+    font-size: 14px !important;
+}
+
+
+/* Page - Style 2 */
+.jt-travel-booking-2 .container .row {
+    margin: 50px 0;
+}
+
+.jt-travel-booking-2 video::-webkit-media-controls {
+    overflow: hidden !important
+}
+
+.jt-travel-booking-2 video::-webkit-media-controls-enclosure {
+    width: calc(100% + 32px);
+    margin-left: auto;
+}
+
+.jt-travel-booking-2 .col-md-8 {
+	padding: 0;
+}
+
+.jt-travel-booking-2 .col-md-8 .box {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+    padding: 20px;
+    margin: 0 0 15px;
+}
+
+.jt-travel-booking-2 .destination-price-box {
+    background: #ff8989;
+    color: #fff;
+    margin: 15px 0;
+    padding: 15px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.jt-travel-booking-2 .destination-price-box span {
+    font-size: 16px;
+    padding: 0 5px 0 0;
+}
+
+.jt-travel-booking-2 .entry-header {
+	text-align: center;
+}
+
+.jt-travel-booking-2 .uk-tab {
+    text-align: center;
+    border-bottom: 1px solid #f0f0f0
+}
+
+.jt-travel-booking-2 .uk-tab li {
+    display: inline-block;
+    float: none;
+}
+
+.jt-travel-booking-2 .uk-tab li a {
+    color: #484848;
+    background: #fff;
+    border: 0;
+}
+
+.jt-travel-booking-2 .uk-tab li.uk-active a {
+    position: relative;
+    border: 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.jt-travel-booking-2 .uk-tab li.uk-active a:after {
+    position: absolute;
+    content: '';
+    width: 30px;
+    height: 3px;
+    background: #ff8989;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.jt-travel-booking-2 .entry-header .destination-title {
+	padding: 0 0 10px;
+	margin: 0 0 10px;
+	font-size: 22px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.jt-travel-booking-2 .entry-header span {
+	padding: 0 20px 0 0;
+}
+
+.jt-travel-booking-2 .entry-header span i {
+	padding: 0 10px 0 0;
+	color: #ff8989;
+}
+
+.jt-travel-booking-2 .departure-dates {
+	background: #fcfcfc;
+	padding: 20px;
+	margin: -20px;
+}
+
+
+.jt-travel-booking-2 .departure-dates ul {
+    margin: 10px 0 0;
+    padding: 10px 0 0;
+    list-style: none;
+    text-align: center;
+	overflow: auto;
+}
+
+.jt-travel-booking-2 .departure-dates ul li {
+    width: 16%;
+    float: left;
+    padding: 0 0 15px;
+}
+
+.jt-travel-booking-2 .departure-dates h4 {
+	text-align: center;
+	background: #fff;
+	padding: 15px;
+	margin: -20px -20px 20px;
+	font-size: 15px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.jt-travel-booking-2 .destination-gallery {
+	background: #fcfcfc;
+	padding: 20px;
+	margin: -20px;
+}
+
+.jt-travel-booking-2 .destination-gallery h4 {
+	text-align: center;
+	background: #fff;
+	padding: 15px;
+	margin: -20px -20px 20px;
+	font-size: 15px;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.jt-travel-booking-2 .destination-gallery a {
+    width: 16.1%;
+    display: inline-block;
+}
+
+.jt-travel-booking-2 .destination-gallery img {
+	width: 100%;
+	height: 95px;
+	object-fit: cover;
+}
+
+
+.jt-travel-booking-2 .book-destination-box {
+    margin: 40px 0 !important;
+    background: #f9f9f9;
+    border: 1px solid #f0f0f0;
+}
+
+.jt-travel-booking-2 .book-destination-box .col-md-9 {
+    padding: 25px;
+}
+
+.jt-travel-booking-2 .book-destination-box p {
+    margin: 0;
+}
+
+.jt-travel-booking-2 .book-destination-box .col-md-3 {
+    background: rgb(255, 137, 137);
+    padding: 0;
+    text-align: center;
+    font-size: 20px
+}
+
+.jt-travel-booking-2 .book-destination-box a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    display: block;
+    padding: 21px;
+    transition: all .4s ease;
+}
+
+.jt-travel-booking-2 .book-destination-box a:hover {
+    color: #fff;
+    transition: all .4s ease;
+}
+
+.jt-travel-booking-2 #book-form-section {
+    background: #fcfcfc;
+    padding: 30px;
+    margin: -40px 0 40px;
+    border: 1px solid #f0f0f0;
+    border-top: 0;
+}
+
+.jt-travel-booking-2 #book-form-section .uk-form-controls {
+	width: 100%;
+	background: #fff !important;
+	border: 1px solid #f0f0f0 !important;
+	border-radius: 0 !important;
+	outline: none !important;
+}
+
+.jt-travel-booking-2 #book-form-section textarea {
+	padding: 7px;
+}
+
+.jt-travel-booking-2 #book-form-section .book-trip-btn {
+	text-align: right;
+}
+
+.jt-travel-booking-2 #book-form-section .book-trip-btn input {
+    background: #000;
+    box-shadow: none;
+    color: #fff;
+    border: 0;
+    border-radius: 0 !important;
+    padding: 14px 25px !important;
+    text-shadow: none !important;
+    font-size: 14px !important;
+}
+
+
+.jt-travel-booking-2 .more-destinations-section h4 {
+    margin: 0 0 30px;
+    text-align: center;
+}
+
+.jt-travel-booking-2 .more-destinations-section h4 span {
+    position: relative;
+}
+
+.jt-travel-booking-2 .more-destinations-section h4 span:before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #fd9e9e;
+    /* border: 1px solid #f0f0f0; */
+    border-radius: 50%;
+    left: -25px;
+    top: 7px;
+}
+
+.jt-travel-booking-2 .more-destinations-section h4 span:after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #fd9e9e;
+    /* border: 1px solid #f0f0f0; */
+    border-radius: 50%;
+    right: -25px;
+    top: 7px;
+}
+
+
+
+/* Style 3 */
+
+.jt-travel-booking-3 .destination-featured-image figure {
+	width: 100%;
+}
+
+.jt-travel-booking-3 .destination-featured-image img {
+    width: 100%;
+    height: 470px;
+    object-fit: cover;
+}
+
+.jt-travel-booking-3 .destination-featured-image .uk-overlay-background {
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.3) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.3) 0%,rgba(0,0,0,1) 100%);
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.3) 0%,rgba(0,0,0,1) 100%);
+    padding: 40px 80px;
+}
+
+.jt-travel-booking-3 .destination-title {
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.jt-travel-booking-3 figcaption div:first-child {
+    width: 100%;
+}
+
+.jt-travel-booking-3 .summary {
+    margin: 70px 0 15px;
+    padding: 0 0 15px;
+    width: 40%;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 13px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.jt-travel-booking-3 .price-text {
+    font-size: 13px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.jt-travel-booking-3 .price-section .price {
+	float: left;
+	width: 160px;
+	background: rgba(255, 137, 137, 0.8);
+	padding: 35px 25px;
+	margin: 0 20px 0 0;
+	display: inline-block;
+	font-size: 30px;
+	text-align: center;
+}
+
+.jt-travel-booking-3 .departure-dates {
+    float: left;
+}
+
+.jt-travel-booking-3 .departure-dates-title {
+    display: block;
+    text-transform: uppercase;
+    font-size: 12px;
+    margin: 0 0 3px;
+}
+
+.jt-travel-booking-3 .destination-days {
+    color: #fff;
+    font-size: 13px;
+}
+
+.jt-travel-booking-3 .destination-days span {
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0 5px 0 0;
+}
+
+.jt-travel-booking-3 .departure-dates {
+    width: 20%;
+}
+
+.jt-travel-booking-3 .departure-dates ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.jt-travel-booking-3 .departure-dates ul li {
+    display: inline-block;
+    padding: 0 13px 10px 0;
+	font-size: 12px;
+}
+
+.jt-travel-booking-3 .departure-dates h4 {
+    font-size: 16px;
+    position: relative;
+    margin: 0 0 20px
+}
+
+.jt-travel-booking-3 .departure-dates h4:after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.5);
+    bottom: -8px;
+    left: 0
+}
+
+.jt-travel-booking-3 .transportation i {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 50px;
+    margin-right: 10px;
+    width: 30px;
+	font-size: 15px;
+    text-align: center;
+}
+
+.jt-travel-booking-3 .destination-map {
+    margin-bottom: 35px;
+}
+
+.jt-travel-booking-3 .destination-days span:last-child {
+    margin-left: 15px;
+}
+
+.jt-travel-booking-3 .destination-info-section {
+    padding: 80px;
+}
+
+.jt-travel-booking-3 .destination-info-section .info-box img {
+    width: 100%;
+    height: auto;
+}
+
+.jt-travel-booking-3 .destination-info-section .info-box p {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 0 0 20px;
+    text-align: justify;
+}
+
+.jt-travel-booking-3 .destination-info-section .destination-info-section-title {
+    margin: 0 0 20px;
+    font-size: 24px;
+    border-bottom: 1px solid #f5f5f5;
+    padding: 0 0 12px;
+}
+
+.jt-travel-booking-3 .more-destinations {
+	background: #fff;
+    border: 1px solid #f5f5f5;
+    padding: 20px;
+    margin-bottom: 25px;
+}
+
+.jt-travel-booking-3 .more-destinations .more-destinations-title,
+.jt-travel-booking-3 .agency-info h3 {
+    font-size: 16px;
+    background: #555;
+    color: #fff;
+    padding: 9px 20px !important;
+    margin: -20px -20px 20px !important;
+    line-height: normal;
+	text-align: left;
+}
+
+
+.jt-travel-booking-3 iframe {
+	width: 100%;
+}
+
+.jt-travel-booking-3 .more-destinations .more-destinations-title span,
+.jt-travel-booking-3 .agency-info h3 span {
+    background: rgb(255, 137, 137);
+    padding: 9px 15px 9px 20px;
+    margin-left: -20px;
+    position: relative;
+}
+
+.jt-travel-booking-3 .more-destinations .more-destinations-title span:after,
+.jt-travel-booking-3 .agency-info h3 span:after {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 38px;
+    background: rgb(255, 137, 137);
+    right: -8px;
+    top: 0;
+    transform: skew(-15deg);
+}
+
+.jt-travel-booking-3 .info-box {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #f5f5f5;
+}
+
+.jt-travel-booking-3 .info-tabs {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0 0 10px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.jt-travel-booking-3 .info-tabs li {
+    display: inline-block;
+}
+
+.jt-travel-booking-3 .info-tabs a {
+    color: #555;
+    transition: all .4s ease;
+}
+
+.jt-travel-booking-3 .info-tabs li h2 {
+    font-size: 24px;
+    margin: 0;
+    line-height: normal;
+}
+
+.jt-travel-booking-3 .info-tabs .uk-active a,
+.jt-travel-booking-3 .info-tabs a:hover {
+    color: rgb(255, 137, 137);
+    transition: all .4s ease;
+}
+
+.jt-travel-booking-3 .info-tabs .program-tab {
+    float: right;
+    padding: 3px 0 0;
+}
+
+.jt-travel-booking-3 .info-tabs .video-tab,
+.jt-travel-booking-3 .info-tabs .hotels-tab,
+.jt-travel-booking-3 .info-tabs .provisions-tab,
+.jt-travel-booking-3 .info-tabs .activities-tab,
+.jt-travel-booking-3 .info-tabs .booking-info-tab {
+	float: right;
+    padding: 3px 0 3px 10px;
+    margin-left: 10px;
+    border-left: 1px solid #eee;
+}
+
+.jt-travel-booking-3 .info-tabs .booking-info-tab h2,
+.jt-travel-booking-3 .info-tabs .video-tab h2,
+.jt-travel-booking-3 .info-tabs .provisions-tab h2,
+.jt-travel-booking-3 .info-tabs .hotels-tab h2,
+.jt-travel-booking-3 .info-tabs .program-tab h2,
+.jt-travel-booking-3 .info-tabs .activities-tab h2 {
+    font-size: 15px;
+    line-height: normal;
+}
+
+.jt-travel-booking-3 .price-section .transportation {
+    float: right;
+    padding: 75px 0 0;
+}
+
+.jt-travel-booking-3 .price-section .transportation a {
+    display: inline-block;
+    padding: 6px;
+    margin: 0 5px;
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    border-radius: 50px;
+    color: #fff;
+    transition: all .4s ease;
+}
+
+.jt-travel-booking-3 .price-section .transportation a:hover {
+    transition: all .4s ease;
+    color: rgb(255, 137, 137);
+}
+
+.jt-travel-booking-3 .more-destinations .uk-grid {
+    margin: 0;
+}
+
+.jt-travel-booking-3 .more-destinations .uk-grid > * {
+    padding: 0 5px 10px;
+}
+
+.jt-travel-booking-3 .more-destinations p {
+    margin: 0 0 5px;
+}
+
+.jt-travel-booking-3 .more-destinations a {
+    font-size: 15px;
+    color: #555;
+}
+
+.jt-travel-booking-3 .more-destinations .price {
+    font-size: 12px;
+    font-style: italic;
+    color: #999;
+}
+
+.jt-travel-booking-3 .more-destinations figcaption {
+    padding: 0;
+    background: transparent;
+}
+
+.jt-travel-booking-3 .more-destinations figcaption span {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 3px 6px;
+    display: inline-block;
+	font-size: 12px;
+}
+
+.jt-travel-booking-3 .more-destinations img {
+    width: 100%;
+    height: 60px;
+    object-fit: cover;
+}
+
+.jt-travel-booking-3 .box {
+    background: #fff;
+    margin: 35px 0;
+    padding: 20px;
+    border: 1px solid #f5f5f5;
+}
+
+.jt-travel-booking-3 .destination-gallery h4 {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 0 8px;
+    margin: 0 0 10px;
+}
+
+.jt-travel-booking-3 .destination-gallery img {
+    width: 126px;
+    height: 90px;
+    object-fit: cover;
+    padding: 0 2px 4px;
+    display: inline-block;
+}
+
+.jt-travel-booking-3 .book-destination-box {
+    margin: 40px 0 !important;
+    background: #fdfdfd;
+    border: 1px solid #f0f0f0;
+}
+
+.jt-travel-booking-3 .book-destination-box .col-md-9 {
+    padding: 16px;
+}
+
+.jt-travel-booking-3 .book-destination-box p {
+    margin: 0;
+}
+
+.jt-travel-booking-3 .book-destination-box .col-md-3 {
+    background: rgb(255, 137, 137);
+    padding: 0;
+    text-align: center;
+    font-size: 20px
+}
+
+.jt-travel-booking-3 .book-destination-box a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: none;
+    display: block;
+	font-size: 16px;
+    padding: 15px;
+    transition: all .4s ease;
+}
+
+.jt-travel-booking-3 .book-destination-box a:hover {
+    color: #fff;
+    transition: all .4s ease;
+}
+
+.jt-travel-booking-3 #book-form-section {
+    background: #fcfcfc;
+    padding: 30px;
+    margin: -40px 0 40px;
+    border: 1px solid #f0f0f0;
+    border-top: 0;
+}
+
+.jt-travel-booking-3 #book-form-section .uk-form-controls {
+	width: 100%;
+	background: #fff !important;
+	border: 1px solid #f0f0f0 !important;
+	border-radius: 0 !important;
+	outline: none !important;
+}
+
+.jt-travel-booking-3 #book-form-section textarea {
+	padding: 7px;
+}
+
+.jt-travel-booking-3 #book-form-section .book-trip-btn {
+	text-align: right;
+}
+
+.jt-travel-booking-3 #book-form-section .book-trip-btn input {
+    background: #000;
+    box-shadow: none;
+    color: #fff;
+    border: 0;
+    border-radius: 0 !important;
+    padding: 14px 25px !important;
+    text-shadow: none !important;
+    font-size: 14px !important;
+}
+
+
+/* Style 4 */
+.jt-travel-booking-4 article {
+    width: 80%;
+    margin: 40px auto;
+}
+.jt-travel-booking-4 .destination-top-section {
+    background: #fff;
+    margin: 0 0 30px;
+}
+.jt-travel-booking-4 .destination-top-section > * {
+    padding: 0;
+}
+.jt-travel-booking-4 figure img {
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+.jt-travel-booking-4 .destination-top-section .uk-width-3-10 {
+    padding: 20px;
+}
+.jt-travel-booking-4 .destination-top-section p {
+    font-size: 13px;
+}
+.jt-travel-booking-4 .destination-top-section .departure-dates {
+    border-top: 1px dotted #f0f0f0;
+    border-bottom: 1px dotted #f0f0f0;
+    padding: 0 0 10px;
+    margin: 0 0 20px;
+}
+.jt-travel-booking-4 .destination-top-section .departure-dates h4 {
+    font-size: 16px;
+    margin: 10px 0 15px;
+}
+.jt-travel-booking-4 .destination-top-section .departure-dates ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+.jt-travel-booking-4 .destination-top-section i {
+    color: #ff8989;
+    width: 20px;
+}
+.jt-travel-booking-4 .destination-top-section .destination-price {
+    background: #ff8989;
+    text-align: right;
+    padding: 8px 15px;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 2px;
+    margin: 20px 0;
+}
+.jt-travel-booking-4 .destination-top-section .destination-price span {
+    font-size: 12px;
+    float: left;
+    padding: 3px 0;
+}
+.jt-travel-booking-4 .destination-top-section .departure-dates li {
+    display: inline-block;
+    width: 33%;
+	padding: 5px 0;
+}
+.jt-travel-booking-4 .destination-top-section .destination-title {
+    font-size: 25px;
+    margin: 0 0 15px;
+}
+.jt-travel-booking-4 .destination-top-section figcaption {
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.01) 0%, rgba(0,0,0,0.85) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.85) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.01) 0%,rgba(0,0,0,0.85) 100%);
+}
+.jt-travel-booking-4 .destination-info-section .uk-grid {
+    background: #fff;
+    margin: 0 0 30px;
+}
+.jt-travel-booking-4 .destination-info-section .uk-grid > * {
+    padding: 20px;
+}
+.jt-travel-booking-4 .destination-info-section .uk-width-3-5 {
+    border-right: 1px solid #f0f0f0;
+}
+.jt-travel-booking-4 .destination-info-section .uk-width-2-5 {
+    border-left: 1px solid #f0f0f0;
+    margin: 0 0 0 -1px;
+}
+.jt-travel-booking-4 .destination-info-section .info-tabs {
+    list-style: none;
+    margin: 0 0 20px;
+    padding: 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.jt-travel-booking-4 .destination-info-section .info-tabs li {
+    display: inline-block;
+}
+.jt-travel-booking-4 .destination-info-section .info-tabs li h2 {
+    font-size: 14px;
+    padding: 8px 18px 8px 0;
+    margin: 0;
+}
+.jt-travel-booking-4 .destination-info-section .info-tabs li a {
+    color: #000;
+}
+.jt-travel-booking-4 .destination-info-section .info-tabs li.uk-active a {
+    color: #ff8989;
+    border-bottom: 1px solid #ff8989;
+    padding: 13px 0;
+}
+.jt-travel-booking-4 .destination-info-section p {
+    font-size: 13px;
+    line-height: 22px;
+}
+.jt-travel-booking-4 .destination-info-section ul,
+.jt-travel-booking-4 .destination-info-section ol {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.jt-travel-booking-4 .destination-info-section ul li,
+.jt-travel-booking-4 .destination-info-section ol li {
+    padding: 5px 0;
+    margin: 0;
+}
+.jt-travel-booking-4 .destination-info-section .destination-map iframe {
+    width: 100%;
+    height: 200px;
+}
+.jt-travel-booking-4 .book-destination-box {
+    padding: 0 0 15px;
+    margin: 0 0 15px;
+    border-bottom: 1px solid #f0f0f0
+}
+.jt-travel-booking-4 .book-destination-box .book-now-btn {
+    background: #ff8989;
+    padding: 8px 15px;
+    display: inline-block;
+    color: #fff;
+    font-size: 13px;
+    border-radius: 2px;
+    transition: all .4s ease;
+}
+.jt-travel-booking-4 .book-destination-box .book-now-btn:hover {
+    background: #585858;
+    transition: all .4s ease;
+}
+.jt-travel-booking-4 .destination-gallery {
+    background: #fff;
+    padding: 20px;
+}
+.jt-travel-booking-4 .destination-gallery h4 {
+    margin: 0 0 20px;
+    font-size: 16px;
+    text-align: center;
+}
+.jt-travel-booking-4 .destination-gallery a {
+    width: 16.3%;
+    display: inline-block;
+    padding: 0 0 3px;
+}
+.jt-travel-booking-4 .destination-gallery img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+.jt-travel-booking-4 video {
+	width: 100%;
+	height: auto;
+}
+.jt-travel-booking-4 .agency-info {
+    border: 0;
+    padding: 0;
+    margin: 25px 0 0;
+}
+.jt-travel-booking-4 .agency-info p {
+    margin: 0;
+}
+.jt-travel-booking-4 .agency-info h3 {
+    font-size: 15px;
+}
+.jt-travel-booking-4 .agency-info h3 span {
+    padding: 9px 0;
+}
+.jt-travel-booking-4 #book-form-section .uk-grid {
+    margin: 0;
+}
+.jt-travel-booking-4 #book-form-section .uk-grid > * {
+    padding: 0;
+}
+.jt-travel-booking-4 #book-form-section .uk-grid . uk-grid {
+    margin: 0;
+}
+.jt-travel-booking-4 #book-form-section .uk-grid .uk-grid > * {
+    padding: 0;
+}
+.jt-travel-booking-4 .booking-form {
+    padding: 20px !important;
+}
+.jt-travel-booking-4 .booking-form input,
+.jt-travel-booking-4 .booking-form select {
+    width: 95%;
+    background: #f9f9f9;
+    border: 0;
+    padding: 8px 10px;
+    height: auto;
+    margin: 0 0 10px;
+}
+.jt-travel-booking-4 .booking-form label {
+    font-weight: normal;
+}
+.jt-travel-booking-4 .booking-form textarea {
+    width: 97.5%;
+    background: #f9f9f9;
+    border: 0;
+    padding: 8px 10px;
+    height: auto;
+    margin: 0 0 10px;
+}
+.jt-travel-booking-4 .booking-form input[type="submit"] {
+    width: auto;
+    background: #585858;
+    color: #fff;
+    box-shadow: none;
+    text-shadow: none;
+    font-size: 13px;
+    border-radius: 2px;
+    padding: 10px 15px;
+}
+.jt-travel-booking-4 #book-form-section .uk-modal-dialog {
+	margin-top: 60px;
+}
+.jt-travel-booking-4 #book-form-section .destination-title {
+    font-size: 22px;
+    margin: 0;
+}
+
+
+/* Admin CSS */
+#destination-tabs-nav {
+    background: #f9f9f9;
+    border: 1px solid #f0f0f0;
+    padding: 0 10px;
+}
+
+#destination-tabs-nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+#destination-tabs-nav li a {
+    position: relative;
+    outline: none;
+    color: #a6a6a6;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 14px;
+    box-shadow: none !important;
+    background: transparent;
+    border: 0;
+}
+
+#destination-tabs-nav li:hover {
+	border: 0;
+	padding: auto;
+}
+
+#destination-tabs-nav li.uk-active a:after {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px #ccc;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+#destination-tabs-nav li.uk-active a {
+    color: #484848;
+}
+
+#destination-tabs {
+    border: 1px solid #f0f0f0;
+    margin: -1px 0 0;
+    padding: 20px;
+}
+
+.jt-settings-box form {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-top: 0;
+}
+
+.jt-settings-box form table tr {
+    width: 33%;
+    display: inline-block;
+}
+
+.jt-settings-box form table tr:nth-child(16), 
+.jt-settings-box form table tr:nth-child(24),
+.jt-settings-box form table tr:nth-child(34),
+.jt-settings-box form table tr:nth-child(42),
+.jt-settings-box form table tr:nth-child(47) {
+    width: 33%;
+    border-bottom: 0;
+}
+
+.jt-settings-box form table tr:nth-child(16) th, 
+.jt-settings-box form table tr:nth-child(24) th,
+.jt-settings-box form table tr:nth-child(34) th,
+.jt-settings-box form table tr:nth-child(42) th,
+.jt-settings-box form table tr:nth-child(47) th {
+    width: 50%;
+}
+
+.jt-settings-box form table tr:nth-child(13) {
+    width: 100%;
+}
+
+.jt-settings-box form table tr:nth-child(13) th {
+    width: 30%;
+}
+.jt-settings-box form table tr:nth-child(13) td {
+    width: 70%;
+}
+.jt-settings-box form table tr:nth-child(13) td input {
+    width: 100%;
+}
+
+
+
+/* ARCHIVE TEMPLATE */
+.destination-category-title {
+    margin: 40px 0 30px;
+    font-size: 28px;
+    position: relative;
+}
+.destination-category-title:after {
+    position: absolute;
+    content: '';
+    width: 60px;
+    height: 2px;
+    background: rgb(255, 137, 137);
+    bottom: -8px;
+    left: 0;
+}
+
+/* Style 1 */
+.destination-row {
+    margin: 0 0 20px !important;
+    background: #fff;
+    border: 1px solid #f0f0f0;
+}
+.destination-row .destination-image-col {
+    padding: 0;
+}
+.destination-row .destination-image-col img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+.destination-row .destination-info-col {
+    position: relative;
+    padding: 20px 20px 0;
+}
+.destination-row .destination-title {
+    margin: 0 0 15px;
+    font-size: 17px;
+}
+.destination-row .destination-title a {
+    color: rgb(255, 117, 117);
+    transition: all .4s ease;
+}
+.destination-row .destination-title a:hover {
+    color: #000;
+    transition: all .4s ease;
+}
+.destination-row .destination-short-info {
+    font-size: 13px;
+}
+.destination-row .destination-basic-info {
+    background: #f9f9f9;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 0 -20px;
+    padding: 5px 20px;
+    border-top: 1px solid #f0f0f0;
+}
+.destination-row .destination-basic-info p {
+    display: inline-block;
+    padding: 0 12px 0 0;
+    margin: 0 10px 0 0;
+    font-size: 13px;
+    color: #888;
+    border-right: 1px solid #ccc;
+}
+.destination-row .destination-basic-info p:last-child {
+    padding: 0;
+    border: 0;
+}
+.destination-row .destination-basic-info .destination-price {
+    color: #000;
+    float: right;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style 2 */
+.destinations-category-2 .uk-grid {
+    margin: 0;
+}
+.destinations-category-2 .destination-column {
+    padding: 0 5px 10px;
+}
+.destinations-category-2 figure img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+}
+.destinations-category-2 .destination-short-info {
+    display: none;
+}
+.destinations-category-2 .destination-title {
+    font-size: 16px;
+}
+.destinations-category-2 .destination-basic-info p {
+    display: inline-block;
+    font-size: 12px;
+    padding: 0 8px 0 0;
+    margin: 0 7px 0 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.destinations-category-2 .destination-basic-info .destination-price {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background: rgb(255, 137, 137);
+    padding: 4px 10px;
+    font-size: 12px;
+    margin: 0;
+    border-right: 0;
+}
+.destinations-category-2 .destination-basic-info p:last-child {
+    border-right: 0;
+    padding: 0;
+    margin: 0;
+}
+.destinations-category-2 figcaption {
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%); 
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+}
+
+
+/* Single Destination Shortcode */
+.single-destination-default {
+    background: #fff;
+    border: 1px solid #f0f0f0;
+}
+.single-destination-default .uk-grid {
+    margin: 0;
+}
+.single-destination-default .uk-grid > * {
+    position: relative;
+    padding: 0;
+}
+.single-destination-default .uk-width-3-5 {
+    padding: 20px;
+}
+.single-destination-default .destination-title {
+    margin: 0 0 15px;
+    font-size: 20px;
+}
+.single-destination-default .destination-short-info {
+	font-size: 13px;
+    padding: 0 0 15px;
+}
+.single-destination-default .destination-info {
+    position: absolute;
+    width: 94%;
+    bottom: 10px;
+    font-size: 13px;
+}
+.single-destination-default .destination-info > * {
+    display: inline-block;
+}
+.single-destination-default .destination-price {
+    float: right;
+    background: #ff8989;
+    padding: 5px 10px;
+    color: #fff;
+    border-radius: 2px;
+}
+.single-destination-default .destination-title a {
+    color: #ff8989;
+    transition: all .4s ease;
+}
+.single-destination-default .destination-title a:hover {
+    color: #585858;
+    transition: all .4s ease;
+}
+.single-destination-default .destination-price span {
+    font-size: 12px;
+    padding: 0 8px 0 0;
+}
+
+
+@media (max-width: 767px) {
+	.jt-travel-booking .destination-header-info {
+		margin: 0 0 50px !important;
+	}
+	.jt-travel-booking .destination-header-info span {
+		padding-bottom: 5px;
+		display: block;
+	}
+	.jt-travel-booking .destination-tabs-info .col-md-9 {
+		padding: 0 !important;
+	}
+	.jt-travel-booking .destination-tabs-info li {
+		width: 100%;
+	}
+	.jt-travel-booking .departure-dates {
+		margin: 20px 0 40px !important;
+	}
+	.jt-travel-booking-2 .col-md-4 {
+		padding: 0 0 20px;
+	}
+	.jt-travel-booking-2 .destination-gallery a {
+		width: 49%;
+		margin: 0 0 5px;
+	}
+	.jt-travel-booking-2 .uk-tab {
+		border: 0;
+	}
+	.jt-travel-booking-2 .uk-tab li {
+		display: block;
+	}
+	.jt-travel-booking-2 .uk-tab li a {
+		background: #fbfbfb;
+		margin: 0 -20px;
+	}
+	.jt-travel-booking-3 figcaption {
+		padding: 50px !important;
+	}
+	.jt-travel-booking-3 .summary {
+		width: 100%;
+		margin: 40px 0 20px;
+	}
+	.jt-travel-booking-3 .destination-featured-image img {
+		height: 600px;
+	}
+	.jt-travel-booking-3 .departure-dates {
+		width: 100%;
+		margin: 20px 0;
+	}
+	.jt-travel-booking-3 .transportation {
+		padding: 0 !important;
+		float: left !important;
+	}
+	.jt-travel-booking-3 .destination-info-section {
+		padding: 30px;
+	}
+	.jt-travel-booking-3 .destination-info-section .uk-grid > * {
+		width: 100%;
+	}
+	.jt-travel-booking-3 .info-tabs {
+		display: flex !important;
+		flex-direction: column-reverse !important;
+	}
+	.jt-travel-booking-3 .info-tabs li:first-child {
+		order: 1 !important;
+	}
+	.jt-travel-booking-3 .info-tabs li {
+		width: 100%;
+		float: none !important;
+		margin: 0 !important;
+		border: 0 !important;
+		padding: 0 0 13px !important;
+	}
+	.jt-travel-booking-3 .destination-gallery img {
+		width: 108px;
+		height: 75px;
+		margin-bottom: 8px;
+	}
+	.jt-travel-booking-3 .more-destinations img {
+		height: 120px;
+	}
+	.jt-travel-booking-3 .more-destinations figcaption {
+		padding: 0 !important;
+	}
+	.jt-travel-booking-4 .uk-grid > * {
+		width: 100%;
+	}
+	.jt-travel-booking-4 .destination-info-section .uk-width-3-5 {
+		border: 0;
+	}
+	.jt-travel-booking-4 .destination-info-section .uk-width-2-5 {
+		border: 0;
+		border-top: 1px solid #f0f0f0;
+		margin: 0;
+	}
+	.jt-travel-booking-4 .destination-info-section .info-tabs li {
+		display: block;
+	}
+	.jt-travel-booking-4 .destination-info-section .info-tabs li.uk-active a {
+		border: 0;
+	}
+	.jt-travel-booking-4 .destination-gallery a {
+		width: 49%;
+	}
+	.jt-travel-booking-4 .destination-gallery img {
+		height: 90px;
+	}
+	.jt-travel-booking-4 #book-form-section .uk-modal-dialog {
+		margin: 0;
+	}
+	.jt-travel-booking-4 #book-form-section .uk-close {
+		background: rgba(255, 255, 255, 0.98);
+		opacity: 1;
+		box-shadow: none;
+		border-radius: 0;
+		padding: 10px;
+		top: 0;
+		right: 0;
+		font-size: 20px;
+	}
+	.destinations-category-2 .destination-column {
+		width: 100%;
+		padding: 0 0 10px;
+	}
+	.destinations-category .uk-grid > * {
+		width: 100%;
+	}
+	.destinations-category .destination-info-col {
+		padding: 0;
+	}
+	.destinations-category .destination-title {
+		padding: 20px 20px 0;
+	}
+	.destinations-category .destination-short-info {
+		padding: 0 20px 10px;
+	}
+	.destinations-category .destination-basic-info {
+		position: relative;
+		display: grid;
+		width: 100%;
+		margin: 0;
+	}
+	.destinations-category .destination-basic-info p {
+		width: 100%;
+		border: 0;
+		padding: 4px 0 !important;
+	}
+	.destinations-category .destination-price {
+		order: 3;
+	}
+	.single-destination-default .uk-grid > * {
+		width: 100%;
+	}
+	.single-destination-default .destination-info {
+		position: relative;
+		margin: 20px 0 -15px;
+		width: 100%;
+	}
+	.single-destination-default .destination-info > * {
+		display: block;
+		float: none;
+		text-align: center;
+		margin: 0 0 10px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 987px) {
+	.jt-travel-booking .departure-dates {
+		margin: 20px 0 40px !important;
+	}
+}

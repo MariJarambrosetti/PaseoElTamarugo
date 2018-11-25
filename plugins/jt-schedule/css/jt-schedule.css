@@ -1,0 +1,516 @@
+/* JT Schedule - CSS */
+
+/* Style 1 */
+.jt-schedule {
+    margin: 50px 0;
+}
+.jt-schedule .col-md-8 {
+    background: #fff;
+    border: 1px solid #f5f5f5;
+    padding: 20px;
+}
+.jt-schedule .col-md-4 {
+    padding: 0 20px 0 0;
+}
+.jt-schedule .col-md-8 .class-title {
+    font-size: 22px;
+    padding: 0 0 10px;
+    margin: 0 0 20px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.jt-schedule ul {
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.jt-schedule .class-basic-info {
+    background: #fff;
+    padding: 20px;
+	border: 1px solid #f5f5f5;
+	border-top: 0;
+}
+.jt-schedule .class-basic-info p {
+    border-bottom: 1px dotted #f5f5f5;
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+    font-size: 13px;
+}
+.jt-schedule .class-basic-info span {
+    font-weight: bold;
+    width: 85px;
+    display: inline-block;
+}
+.jt-schedule .class-basic-info p:last-child {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.jt-schedule video::-webkit-media-controls {
+    overflow: hidden !important
+}
+.jt-schedule video::-webkit-media-controls-enclosure {
+    width: calc(100% + 32px);
+    margin-left: auto;
+}
+.jt-schedule .class-gallery {
+    background: #fff;
+    margin: 0;
+    padding: 7px 6px 3px;
+    border: 1px solid #f5f5f5;
+    border-top: 0;
+}
+.jt-schedule .class-gallery a {
+    padding: 2px;
+    display: inline-block;
+    width: 78px;
+}
+.jt-schedule .class-gallery img {
+    opacity: 0.7;
+    width: 100%;
+    height: 60px;
+    margin: 0 0 6px;
+    transition: all .4s ease;
+}
+.jt-schedule .class-gallery img:hover {
+    opacity: 1;
+    transition: all .4s ease;
+}
+.jt-schedule .sign-in-btn {
+    float: right;
+    font-size: 13px;
+    background: #484848;
+    color: #fff;
+    padding: 8px 20px;
+    margin: -4px 0 0;
+    border-radius: 50px;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+.jt-schedule .sign-in-btn:hover {
+    background: #60b6db;
+    transition: all .4s ease;
+}
+
+/* Sign Up Box */
+.jt-schedule #sign-up-box .uk-modal-header {
+    background: #f9f9f9;
+    padding: 15px 20px;
+    margin: -20px -20px 20px;
+    font-size: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.jt-schedule #sign-up-box .uk-close {
+    float: right;
+    margin: 5px 0;
+}
+.jt-schedule #sign-up-box label {
+    color: #57a6c3;
+    font-weight: normal;
+    width: 30%;
+    display: inline-block;
+}
+.jt-schedule #sign-up-box input {
+    outline: none;
+    border: 0;
+    border-bottom: 1px solid #dedede;
+    border-radius: 0;
+    padding: 0;
+    background: #fff;
+}
+.jt-schedule #sign-up-box input[type="submit"] {
+    background: #484848;
+    transition: all .4s ease;
+    padding: 10px 28px;
+    margin: 30px 0 0;
+    font-size: 15px;
+    box-shadow: none;
+    text-shadow: none;
+    color: #fff;
+    border-radius: 50px;
+}
+.jt-schedule #sign-up-box input[type="submit"]:hover {
+    background: #57a6c3;
+    transition: all .4s ease;
+}
+
+
+
+/* Style 2 */
+.jt-schedule-2 .uk-grid {
+    margin: 0;
+    background: #fff;
+    margin: 30px 0;
+}
+.jt-schedule-2 .uk-grid > * {
+    padding: 0;
+}
+.jt-schedule-2 .uk-width-3-10 {
+    position: relative;
+    padding: 20px;
+}
+.jt-schedule-2 figure img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.jt-schedule-2 figcaption {
+	background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 100%);
+	background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+	background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+}
+.jt-schedule-2 .class-basic-info p {
+    padding: 0 0 10px;
+    margin: 0 0 10px;
+    border-bottom: 1px dotted #f5f5f5;
+    font-size: 13px;
+    color: #999;
+}
+.jt-schedule-2 .class-basic-info p:last-child {
+    border-bottom: 0;
+}
+.jt-schedule-2 .class-basic-info span {
+    width: 30%;
+    display: inline-block;
+    color: #000;
+}
+.jt-schedule-2 .sign-in-btn {
+    display: block;
+    width: 87%;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    border-radius: 2px;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 20px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.jt-schedule-2 .class-title {
+    font-size: 20px;
+    margin: 0;
+}
+.jt-schedule-2 .uk-width-1-2 {
+    padding: 20px;
+    box-sizing: border-box;
+    border-right: 1px solid #f0f0f0;
+}
+.jt-schedule-2 .uk-width-1-2:last-child {
+    border-right: 0;
+    border-left: 1px solid #f0f0f0;
+    margin: 0 0 0 -1px;
+}
+.jt-schedule-2 video,
+.jt-schedule-2 iframe {
+    width: 100%;
+    height: auto;
+}
+.jt-schedule-2 .class-gallery {
+    margin: 20px 0 0;
+}
+.jt-schedule-2 .class-gallery a {
+    width: 24.4%;
+    display: inline-block;
+    padding: 0 0 5px;
+}
+.jt-schedule-2 .class-gallery a img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+.jt-schedule-2 video::-webkit-media-controls {
+    overflow: hidden !important
+}
+.jt-schedule-2 video::-webkit-media-controls-enclosure {
+    width: calc(100% + 32px);
+    margin-left: auto;
+}
+.jt-schedule-2 .short-info {
+    font-size: 13px;
+    margin: 12px 0 0;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Sign Up Box */
+.jt-schedule-2 #sign-up-box label {
+    display: block;
+	font-style: italic;
+	margin: 0 0 5px;
+    font-weight: normal;
+    font-size: 13px;
+}
+.jt-schedule-2 #sign-up-box input,
+.jt-schedule-2 #sign-up-box select {
+    width: 100%;
+	border-radius: 2px;
+	font-size: 13px;
+	background: #f9f9f9;
+	border: 0;
+	box-shadow: none;
+	padding: 8px 10px;
+    height: auto;
+}
+.jt-schedule-2 #sign-up-box input[type="submit"] {
+    background: #484848;
+    transition: all .4s ease;
+    padding: 10px 28px;
+    margin: 23px 0 0;
+    width: 50%;
+    font-size: 13px;
+    box-shadow: none;
+    float: right;
+    text-shadow: none;
+    color: #fff;
+    border-radius: 2px;
+}
+.jt-schedule-2 #sign-up-box input[type="submit"]:hover {
+    background: #d05c67;
+    transition: all .4s ease;
+}
+.jt-schedule-2 #sign-up-box .uk-grid {
+    margin: 0;
+}
+.jt-schedule-2 #sign-up-box .uk-grid > * {
+    padding: 0 10px 0 0;
+    border: 0;
+}
+.jt-schedule-2 #sign-up-box .uk-grid .uk-width-1-2:last-child {
+    padding: 0 0 0 10px;
+}
+.jt-schedule-2 #sign-up-box p {
+    margin: 0 0 15px;
+}
+.jt-schedule-2 .uk-modal-dialog {
+    padding: 20px;
+}
+.jt-schedule-2 .uk-modal-header {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 0 10px;
+    color: #585858;
+    margin: 0 0 20px;
+}
+.jt-schedule-2 .uk-modal-header a {
+    float: right;
+}
+
+
+
+/* Admin CSS */
+#schedule-tabs-nav {
+    background: #f9f9f9;
+    border: 1px solid #f0f0f0;
+    padding: 0 10px;
+}
+#schedule-tabs-nav li {
+    display: inline-block;
+    margin: 0;
+}
+#schedule-tabs-nav li a {
+    position: relative;
+    outline: none;
+    color: #a6a6a6;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    font-size: 14px;
+    box-shadow: none !important;
+}
+#schedule-tabs-nav li.uk-active a:after {
+    position: absolute;
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: rgba(255, 0, 0, 0.5);
+    border-radius: 50%;
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px #ccc;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+#schedule-tabs-nav li.uk-active a {
+    color: #484848;
+}
+#schedule-tabs {
+    border: 1px solid #f0f0f0;
+    margin: -14px 0 0;
+    padding: 20px;
+}
+#class_meta_box .handlediv,
+#class_meta_box .hndle {
+    display: none;
+}
+#class_meta_box {
+    background: transparent;
+    box-shadow: none;
+    border: 0;
+}
+#class_meta_box .schedule-tabs-section {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	padding: 5px 15px;
+	margin: 0 0 20px;
+}
+#class_meta_box .inside {
+    padding: 0;
+}
+#class_meta_box #schedule-tabs {
+    background: #fff;
+    border: 0;
+    padding: 10px 0;
+    margin: 1px 0 0;
+}
+#class_meta_box #schedule-tabs-nav {
+    background: #fff;
+    border: 0;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0;
+    margin: 0;
+}
+#class_meta_box #schedule-tabs-nav li {
+    padding: 0 30px 0 0 !important;
+    margin: 0 0 -1px;
+}
+#class_meta_box #schedule-tabs-nav li a {
+    padding: 0;
+	font-size: 16px;
+}
+#class_meta_box #schedule-tabs-nav li.uk-active a:after {
+    display: none !important;
+}
+#class_meta_box #schedule-tabs-nav li.uk-active a {
+    padding: 10px 0 9px;
+    border-bottom: 1px solid #ea4354;
+}
+#class_meta_box #schedule-tabs .uk-grid label,
+#class_meta_box #schedule-tabs .media-fields label {
+    display: block;
+    margin: 0 0 5px;
+	font-style: italic;
+}
+#class_meta_box #schedule-tabs .uk-grid input,
+#class_meta_box #schedule-tabs .media-fields input {
+    width: 100%;
+    background: #f9f9f9;
+    border: 0;
+    box-shadow: none;
+    padding: 8px 10px;
+    border-radius: 2px;
+}
+#class_meta_box #schedule-tabs .uk-grid textarea {
+    width: 100%;
+    background: #f9f9f9;
+    border: 0;
+    box-shadow: none;
+}
+#class_meta_box #schedule-tabs .uk-grid input[type="color"] {
+    width: 50px;
+    height: 35px;
+}
+#class_meta_box #schedule-tabs .uk-grid p {
+    margin: 5px 0 15px;
+}
+#class_meta_box .media-fields textarea {
+    width: 100%;
+    background: #f9f9f9;
+    border: 0;
+    box-shadow: none;
+    padding: 10px;
+}
+#class_meta_box .media-fields .gallery-img input {
+    width: 85% !important;
+}
+#class_meta_box .media-fields .gallery-img input[type="button"] {
+    width: 13% !important;
+    margin: 0 0 0 1%;
+    padding: 5px !important;
+    height: auto;
+    background: #35353c !important;
+    color: #fff;
+    transition: all .4s ease;
+}
+#class_meta_box .media-fields .gallery-img input[type="button"]:hover {
+    background: #ea4354 !important;
+    transition: all .4s ease;
+}
+#class_meta_box .schedule-settings {
+    background: #fff;
+    padding: 10px 15px;
+    border: 1px solid #f0f0f0;
+}
+#class_meta_box .schedule-settings h3 {
+    margin: 5px 0 10px;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 0 0 10px;
+    font-weight: normal;
+    font-size: 16px;
+}
+#class_meta_box .schedule-settings h3 span {
+    border-bottom: 1px solid #ea4354;
+    padding: 9px 0;
+}
+#class_meta_box .schedule-settings p {
+    margin: 5px 0 10px;
+}
+#class_meta_box .schedule-settings label {
+    display: block;
+    margin: 0 0 5px;
+    font-style: italic;
+}
+#class_meta_box .schedule-settings input,
+#class_meta_box .schedule-settings select {
+    width: 100%;
+    background: #f9f9f9;
+    border: 0;
+    box-shadow: none;
+    padding: 8px 10px;
+    height: auto;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 767px) {
+	.jt-schedule video,
+	.jt-schedule iframe {
+		width: 100%;
+		height: auto;
+	}
+	.jt-schedule .row {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.jt-schedule .row .col-md-4 {
+		width: 100%;
+		padding: 0;
+		margin: 20px 0 0;
+		order: 2;
+	}
+	.jt-schedule .row .col-md-8 {
+		order: 1;
+	}
+	.jt-schedule-2 .uk-grid > * {
+		width: 100%;
+	}
+	.jt-schedule-2 figure img {
+		height: 250px;
+	}
+	.jt-schedule-2 .short-info {
+		font-size: 12px;
+	}
+	.jt-schedule-2 .class-basic-info span {
+		width: 100%;
+		display: block;
+	}
+	.jt-schedule-2 .sign-in-btn {
+		position: relative;
+		width: 100%;
+		bottom: 0;
+	}
+	.jt-schedule-2 .class-gallery a {
+		width: 49%;
+	}
+	.jt-schedule-2 .class-info ul {
+		margin: 0;
+	}
+}
